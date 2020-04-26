@@ -40,7 +40,7 @@ def watch(file, seconds, cmd):
         os.system(cmd)
 
     else:
-        click.echo(f"[OK] File has been refreshed inside {seconds} seconds !")
+        click.echo(f"[OK] File has been refreshed last {seconds} seconds !")
 
 
 if __name__ == '__main__':
